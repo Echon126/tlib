@@ -44,7 +44,7 @@ public class RedisExceptionUtil {
      */
     public static void checkObjectIsNull(Object obj, String reason) {
         if (obj == null) {
-            throw new NullPointerException("对象不能为空 ");
+            throw new NullPointerException(reason);
         }
     }
 }
