@@ -11,6 +11,6 @@ import java.lang.annotation.*;
 @Retention(RetentionPolicy.RUNTIME)
 @Documented
 @Configuration
-@Import({RedisConfig.class})
+@Import({RedisConfiguration.class})
 public @interface EnableTRedis {
 }

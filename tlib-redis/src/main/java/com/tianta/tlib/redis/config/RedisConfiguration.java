@@ -27,7 +27,7 @@ import org.springframework.data.redis.serializer.StringRedisSerializer;
  */
 @Configuration
 @AutoConfigureAfter(RedisAutoConfiguration.class)
-public class RedisConfig {
+public class RedisConfiguration {
 
     @Bean
     @SuppressWarnings("all")
